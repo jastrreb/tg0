@@ -13,7 +13,7 @@ from aiogram.filters.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
 
-token = '7385233291:AAF8kMfvu-CCopRIIiqstjZXN6Nwlguw4tw'
+token = 'token'
 dp = Dispatcher()
 con = sqlite3.connect('excursi0', isolation_level=None)
 cur = con.cursor()
